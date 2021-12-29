@@ -1,7 +1,14 @@
-# hacking tool
-a simple hacking tool
+# something i made randomly
+
+## setup
+```
+chmod +x exploit
+mkdir bin
+cp exploit /bin
+export PATH=$PATH":$HOME/bin"
+```
 
 ## usage
 ```
-python3 exploit.py https://example.com
+exploit https://example.com
 ```
